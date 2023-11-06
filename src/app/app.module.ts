@@ -8,6 +8,8 @@ import { BookModule } from './book/book.module';
 import { EditorialModule } from './editorial/editorial.module';
 import { Author } from './author/author';
 import { AuthorModule } from './author/author.module';
+import { BookRoutingModule } from './book/book-routing.module';
+
 
 @NgModule({
  declarations: [
@@ -18,7 +20,8 @@ import { AuthorModule } from './author/author.module';
    AppRoutingModule,
    BookModule,
    EditorialModule,
-   HttpClientModule
+   HttpClientModule,
+   BookRoutingModule
  ],
  providers: [],
  bootstrap: [AppComponent]
